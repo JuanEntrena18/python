@@ -1,0 +1,1 @@
+print ("Hola Mundo, soy Juan Entrena y este es mi primer programa en Python")
