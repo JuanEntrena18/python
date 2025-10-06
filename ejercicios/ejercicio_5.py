@@ -1,0 +1,8 @@
+#Ejercicio 5
+#Escribir un programa que pregunte al usuario por el número de horas trabajadas y el
+#coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
+
+hora= float(input("¿Cuántas horas trabajas a la semana?"))
+coste= float(input("¿Cuanto cobras por hora?"))
+salario= hora*coste
+print ("Tu salario mensual es",salario,"euros")
