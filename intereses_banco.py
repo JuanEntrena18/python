@@ -1,6 +1,6 @@
 cantidad=float(input('Introduce el capital inicial a invertir: '))
 interes=float(input('Introduce el interés, sólo número:'))
-tiempo=float('¿Cuantos años vas a tener el dinero en el banco? ')
+tiempo=float(input('¿Cuantos años vas a tener el dinero en el banco? '))
 
 interesTotal=round(cantidad*((1+interes/100),tiempo),2)
 
