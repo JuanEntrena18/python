@@ -4,4 +4,4 @@
 #como el número introducido.
 nombre=str(input("¿Cuál es tu nombre de usuario "))
 multi=int(input("¿Cuántas veces quieres que se repita el nombre? "))
-print (nombre*multi, " ")
+print ((nombre + "\n")* multi)
