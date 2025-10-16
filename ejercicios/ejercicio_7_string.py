@@ -3,3 +3,4 @@
 #muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante 
 #de la arroba @) pero con dominio ceu.es
 correo=str(input("Introduzca su correo electrónico: "))
+

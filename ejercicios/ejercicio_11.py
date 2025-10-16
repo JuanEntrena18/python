@@ -9,7 +9,7 @@
 ahorros=float(input("¿Cuánto dinero tienes ahorrado? "))
 interes=round(ahorros*4/100,2)
 
-print ("El interés en el primer año es ",interes, "y tu total es ", ahorros+interes "euros")
-print ("El interés en el primer año es ",interes*2, "y tu total es ", ahorros+interes*2 "euros")
-print ("El interés en el primer año es ",interes*3, "y tu total es ", ahorros+interes*3 "euros")
+print ("El interés en el primer año es ",interes, "y tu total es ", ahorros+interes, "euros")
+print ("El interés en el primer año es ",interes*2, "y tu total es ", ahorros+interes*2, "euros")
+print ("El interés en el primer año es ",interes*3, "y tu total es ", ahorros+interes*3, "euros")
 
