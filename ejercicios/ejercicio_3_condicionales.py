@@ -4,7 +4,7 @@
 numero1=int(input("Introduce el primer número "))
 numero2=int(input("Introduce el segundo número "))
 division = numero1 / numero2
-if division != 0:
-    print ("El resultado es ", division)
+if numero1 == 0 or numero2 == 0:
+    print ("El divisor es cero")
 else:
-    print ("Error, el resultado es CERO")
+    print ("La división es: ",division)
