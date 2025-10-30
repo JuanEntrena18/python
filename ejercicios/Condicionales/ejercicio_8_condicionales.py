@@ -13,20 +13,20 @@
 #Escribir un programa que lea la puntuación del usuario e indique su nivel de 
 #rendimiento, así como la cantidad de dinero que recibirá el usuario. 
 dinero_nivel = float(2400)
-puntos_usuario = float(input("¿Cuántos puntos has conseguido este mes?"))
+puntos_usuario = float(input("¿Cuántos puntos has conseguido este mes? "))
 sobresueldo = puntos_usuario * dinero_nivel
 if (puntos_usuario == 0.0):
     print ("Este mes no tienes sobresueldo")
 elif (puntos_usuario == 0.2):
-    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros")
+    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros. Es inaceptable.")
 elif (puntos_usuario == 0.4):
-    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros")
+    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros. Has tenido un rendimiento aceptable.")
 elif (puntos_usuario == 0.6):
-    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros")
+    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros. Has tenido un rendimiento meritorio.")
 elif (puntos_usuario == 0.8):
-    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros")
+    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros. Has tenido un rendimiento meritorio.")
 elif (puntos_usuario == 1):
-    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros")
+    print ("Este mes has conseguido un sobresueldo de", sobresueldo, "euros. Vas a heredar la empresa.")
 else:
     print ("Has introducido un nivel de puntos que no es válido")
 
