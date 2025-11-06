@@ -1,5 +1,5 @@
 #Ejercicio 7 
-#Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10
+#Escribir un programa que muestre por pantalla la tabla de multiplicar del numero que quieras
 tabla = int(input("Introduce el número del que quieras saber la tabla de multiplicar "))
 contador = 1
 while contador < 10:
