@@ -5,6 +5,8 @@ numeros = [1,2,3,4,5,6,7,8,9,10]
 numeros.reverse()
 ## print (* variable) elimina las comas
 print(*numeros)
+## print sep añade deparador entre los objetos del array
+print(*numeros, sep =", ")
 ## usando replace ponemos las comas donde haga falta
 print (str(numeros).replace('[','').replace(']',''))
 
