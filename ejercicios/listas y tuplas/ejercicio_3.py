@@ -15,4 +15,5 @@ for asignatura in asignaturas:
 
 for i in range(len(asignaturas)):
     print("En " + asignaturas[i] + " has sacado " + notas[i])
+    
 
