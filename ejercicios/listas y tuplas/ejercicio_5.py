@@ -3,6 +3,7 @@
 #muestre por pantalla en orden inverso separados por comas.
 numeros = [1,2,3,4,5,6,7,8,9,10]
 numeros.reverse()
+print (numeros)
 ## print (* variable) elimina las comas
 print(*numeros)
 ## print sep añade deparador entre los objetos del array
