@@ -7,7 +7,3 @@ if palabra == palabra[::-1]:
     print("La palabra", palabra, "es palíndromo")
 else:
     print("La palabra", palabra, "no es palíndromo") 
-## Método array
-palabra = input("Dime una palabra ").lower()
-x = list(palabra)
-y = len(palabra)
